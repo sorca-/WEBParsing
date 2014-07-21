@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<appliances
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.star4.in"
+        xsi:schemaLocation="http://www.star4.in electricalAppliances.xsd">
+    <locals>
+        <hairdryer id="1" count-of-modes="4">
+            <model>HPS32</model>
+            <producer>Philips</producer>
+            <voltage>220</voltage>
+            <power>100</power>
+            <count-of-phase>2</count-of-phase>
+        </hairdryer>
+
+        <hairdryer id="2" count-of-modes="2">
+            <model>HSY55</model>
+            <producer>SONY</producer>
+            <voltage>220</voltage>
+            <power>200</power>
+            <count-of-phase>2</count-of-phase>
+        </hairdryer>
+
+        <kettle id="3" boil-time="110">
+            <model>KPB43</model>
+            <producer>Philips</producer>
+            <voltage>220</voltage>
+            <power>1000</power>
+            <count-of-phase>2</count-of-phase>
+        </kettle>
+
+        <media_center id="4" max-volume="60">
+            <model>MCS22</model>
+            <producer>SONY</producer>
+            <voltage>220</voltage>
+            <power>100</power>
+            <count-of-phase>2</count-of-phase>
+        </media_center>
+    </locals>
+
+    <portables>
+        <photo_camera id="5" resolution="12">
+            <model>D5100</model>
+            <producer>NIKON</producer>
+            <voltage>6</voltage>
+            <power>9</power>
+            <count-of-batteries>4</count-of-batteries>
+            <type-of-battery>LI_ION</type-of-battery>
+        </photo_camera>
+    </portables>
+</appliances>
